@@ -6,6 +6,8 @@ const cross = document.querySelector(".cross-btn");
 
 button.addEventListener("click", ()=>{
     popupBG.style.display = "block";
+    popupBG.style.cursor = "pointer";
+    popup.style.cursor = "default";
 })
 
 cross.addEventListener("click", ()=>{
