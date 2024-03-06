@@ -1,0 +1,16 @@
+*,*::before,*.after{
+    margin: 0;
+    padding: 0;
+}
+.button-wrap{
+    display: flex;
+    justify-self: center;
+}
+button{
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    padding: 30px;
+    margin: 100px auto;
+
+}
